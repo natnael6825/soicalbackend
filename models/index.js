@@ -28,7 +28,7 @@ Post.belongsToMany(User, { through: Rating, as: "raters", foreignKey: "postId" }
 
 // Optionally sync schema (call this once in app.js or migration setup)
 
-// sequelize.sync({ alter: true })  // or { force: true } for full reset
+// sequelize.sync({ force: true })  // or { force: true } for full reset
 //   .then(() => console.log("✅ Database synced"))
 //   .catch(err => console.error("❌ Sync error:", err.message));
 

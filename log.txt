@@ -1,0 +1,56 @@
+[2025-05-10T15:46:13.916Z] User 2 unliked post 3
+[2025-05-10T15:46:17.301Z] User 2 liked post 3
+[2025-05-10T15:48:14.715Z] GraphQL Error: GraphQL middleware options must contain a schema.
+[2025-05-10T15:48:30.366Z] User 2 unliked post 3
+[2025-05-10T15:49:20.472Z] GraphQL Error: Cannot add or update a child row: a foreign key constraint fails (`social_media_db`.`likes`, CONSTRAINT `likes_ibfk_1` FOREIGN KEY (`userId`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+[2025-05-10T15:49:25.049Z] GraphQL Error: Syntax Error: Unexpected ")".
+[2025-05-10T15:49:38.687Z] GraphQL Error: Cannot add or update a child row: a foreign key constraint fails (`social_media_db`.`likes`, CONSTRAINT `likes_ibfk_1` FOREIGN KEY (`userId`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+[2025-05-10T15:51:56.647Z] GraphQL Error: Syntax Error: Expected Name, found String "query".
+[2025-05-10T15:52:04.337Z] GraphQL Error: Syntax Error: Unexpected ":".
+[2025-05-10T15:52:13.292Z] GraphQL Error: Invalid credentials
+[2025-05-10T15:52:31.696Z] GraphQL Error: Invalid credentials
+[2025-05-10T15:52:50.475Z] GraphQL Error: Invalid credentials
+[2025-05-10T15:53:01.736Z] GraphQL Error: Invalid credentials
+[2025-05-10T15:56:37.406Z] GraphQL Error: Invalid credentials
+[2025-05-10T15:56:39.178Z] GraphQL Error: Invalid credentials
+[2025-05-10T15:58:24.011Z] GraphQL Error: Invalid credentials
+[2025-05-10T15:58:25.046Z] GraphQL Error: Invalid credentials
+[2025-05-10T15:58:25.833Z] GraphQL Error: Invalid credentials
+[2025-05-10T15:59:40.823Z] User signed up: 1@gmail.com
+[2025-05-10T15:59:57.639Z] GraphQL Error: Invalid credentials
+[2025-05-10T16:00:19.873Z] GraphQL Error: Invalid credentials
+[2025-05-10T16:00:25.893Z] GraphQL Error: Invalid credentials
+[2025-05-10T16:00:31.511Z] GraphQL Error: Invalid credentials
+[2025-05-10T16:01:30.005Z] GraphQL Error: Invalid credentials pass
+[2025-05-10T16:02:33.212Z] GraphQL Error: Cannot query field "id" on type "AuthPayload".
+[2025-05-10T16:03:24.269Z] User signed up: john@example.com
+[2025-05-10T16:03:31.839Z] GraphQL Error: Invalid credentials pass
+[2025-05-10T16:03:40.542Z] GraphQL Error: Invalid credentials pass
+[2025-05-10T16:06:17.541Z] GraphQL Error: Invalid credentials
+[2025-05-10T16:09:39.152Z] GraphQL Error: Invalid credentials
+[2025-05-10T16:09:40.465Z] GraphQL Error: Invalid credentials
+[2025-05-10T16:09:41.716Z] GraphQL Error: Invalid credentials
+[2025-05-10T16:09:58.592Z] GraphQL Error: Email already in use
+[2025-05-10T16:10:03.804Z] User signed up: john2@example.com
+[2025-05-10T16:10:17.739Z] GraphQL Error: Invalid credentials
+[2025-05-10T16:13:10.939Z] GraphQL Error: Email already in use
+[2025-05-10T16:13:29.135Z] User signed up: john@example.com
+[2025-05-10T16:13:35.516Z] GraphQL Error: Invalid credentials
+[2025-05-10T16:13:46.201Z] GraphQL Error: Invalid credentials pass
+[2025-05-10T16:13:53.450Z] GraphQL Error: Invalid credentials
+[2025-05-10T16:13:57.050Z] GraphQL Error: Invalid credentials
+[2025-05-10T16:14:00.281Z] GraphQL Error: Invalid credentials
+[2025-05-10T16:14:03.825Z] GraphQL Error: Invalid credentials
+[2025-05-10T16:52:06.722Z] User signed up: john@example.com
+[2025-05-10T16:52:37.845Z] GraphQL Error: Admins only
+[2025-05-10T16:53:11.981Z] Admin 2 fetched all users
+[2025-05-10T16:53:18.806Z] Fetched user profile: 1
+[2025-05-10T16:53:24.492Z] GraphQL Error: Field "UserInput.email" of required type "String!" was not provided.
+[2025-05-10T16:53:31.143Z] Post created by user 2
+[2025-05-10T16:53:36.837Z] Fetched post 1 by user 2
+[2025-05-10T16:53:42.280Z] Admin 2 fetched all posts
+[2025-05-10T16:53:47.459Z] Post 1 updated by user 2
+[2025-05-10T16:53:54.485Z] User 2 commented on post 1
+[2025-05-10T16:54:05.436Z] Fetched comments for post 1
+[2025-05-10T16:54:11.439Z] User 2 liked post 1
+[2025-05-10T16:54:15.988Z] Post 1 rated 4 by user 2
