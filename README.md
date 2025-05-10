@@ -161,6 +161,6 @@ All key actions (signup, login, post creation, updates, deletions, etc.) are log
 
 ## ✍️ Author
 
-Built with ❤️ for full-featured GraphQL & REST backend learning and testing.
+Built with Natnael Fikre.
 
 ---
